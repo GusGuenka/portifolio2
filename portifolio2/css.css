@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor--primaria: #140c03;
+    --cor--secundaria: #eeaf5e;
+    --cor--tercearia: #c05905;
+    --cor--hoverRede: #262A56;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    background-color: var(--cor--primaria);
+    box-sizing: border-box;
+    color: var(--cor--secundaria);
+}
+
+.raiz_nav{
+    padding: 2% 0% 0% 12.5%;
+}
+
+.nav{
+    display: flex;
+    gap: 80px;
+}
+
+.nav_item{
+    color: var(--cor--tercearia);
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.raiz_apresenta{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 12.5%;
+}
+
+.apresenta_texto{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresenta_texto_titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 36px;
+}
+
+.apresenta_texto_titulo-destaque{
+    color: var(--cor--tercearia);
+}
+
+.apresenta_texto_descricao{
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+}
+
+.apresenta_texto_descricao a {
+    text-decoration: none;
+    color: var(--cor--tercearia);
+}
+
+.apresenta_texto_divLink{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.apresenta_texto_divLink_texto{
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresenta_texto_divLink_social{
+    border: 2px solid var(--cor--tercearia);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: var(--cor--secundaria);
+    display: flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    gap: 16px;
+    justify-content: center;
+    padding: 21.5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 378px;
+}
+
+.apresentacao_texto_divLink_social:hover{
+    background-color: var(--cor--hoverRede);
+    cursor: pointer;
+}
+
+.rodape{
+    background-color: var(--cor--tercearia);
+    padding: 24px;
+}
+
+.rodape_texto{
+    color: var(--cor--primaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+.foto{
+    width: 45%;
+    height: 45%;
+}
